@@ -9,7 +9,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/wine-quality-prediction.git
+git clone https://github.com/surajkumarpandey231211/wine-quality-prediction.git
 cd wine-quality-prediction
 Install Dependencies:
 Ensure you have Python 3.x installed. Install the required dependencies using pip:
@@ -25,7 +25,7 @@ Run the linear regression script, providing the path to your dataset file as an 
 
 bash
 Copy code
-python predict_wine_quality.py --dataset data/wine_data.csv
+python predict_wine_quality.ipynb --dataset data/wine_quality.csv
 Dataset
 The dataset should be in CSV format with the following columns:
 
